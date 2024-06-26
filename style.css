@@ -135,8 +135,9 @@ main .side-menu ul li{
     display: flex;
     align-items: center;
     gap: 10px;
-    padding: 2rem 0;
+    padding: 1rem 0;
     cursor: pointer;
+    color: #8d8686;
 }
 main .side-menu .side-menu-icons{
     width: 50px;
@@ -146,6 +147,10 @@ main .side-menu .side-menu-icons{
 }
 main .side-menu ul .icon-hover:hover{
     fill: orange;
+}
+main .side-menu ul li:hover{
+   color: rgb(57, 54, 54);
+   font-weight: 300
 }
 .main-content .offer-images{
     display: grid;
