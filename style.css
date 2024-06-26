@@ -236,6 +236,9 @@ footer .footer-content{
     margin-top: 10px;
     font-size: small;
 }
+.footer-links ul li:hover{
+    color: orange;
+}
 
 /* Offer Section CSS */
 
