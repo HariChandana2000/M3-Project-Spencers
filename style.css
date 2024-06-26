@@ -58,30 +58,32 @@ nav .user-icon span:hover{
     justify-content: space-around;
     align-self: center;
     padding: 1rem;
-   
+    background-color: white;
 }
+
 .list-section h3{
     font-size: 1.2rem;
     cursor: pointer;
 }
 .list-section ul{
-    width: 20%;
+    width: 22%;
     display: flex;
     list-style-type: none;
     justify-content: space-between;
     align-items: flex-start;
    
-    
 }
-.list-section ul li{
+
+.list-section ul li, .list-section ul li a{
     margin-right: 1rem;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: #dbdbdb;
     font-weight: lighter;
     cursor: pointer;
+    text-decoration: none;
     
 }
-.list-section ul li:hover{
+.list-section ul li a:hover{
    
     color: orange;
     
