@@ -79,15 +79,29 @@ a {
 /* Main Content */
 .main-content {
   width: 75%;
-  margin-top: 3rem;
   margin-left: -10vw;
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+ 
+}
+main .main-content .main-content-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+main .product-total{
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+main .product-total #filter{
+    border: none;
+    font-size: 1rem;
+    background-color: #f0f0f0;
 }
 main .product-total p{
     font-size: 1.1rem;
-    margin-top: 1.5rem;
 }
 .products {
   margin-top: 23px;
