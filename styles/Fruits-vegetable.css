@@ -22,7 +22,8 @@
 }
 
 .heading {
-  text-align: center;
+    font-size: 1.5rem;
+   text-align: center;
 }
 
 /* Main Content */
@@ -77,14 +78,17 @@ a {
 
 /* Main Content */
 .main-content {
-  width: 72%;
-  /* background: blueviolet;
-    border: 3px solid black; */
+  width: 75%;
+  margin-top: 3rem;
+  margin-left: -10vw;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
 }
-
+main .product-total p{
+    font-size: 1.1rem;
+    margin-top: 1.5rem;
+}
 .products {
   margin-top: 23px;
   /* background: blanchedalmond;
