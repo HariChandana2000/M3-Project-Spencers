@@ -269,6 +269,8 @@ footer {
   width: 100%;
   height: auto;
   background-color: #f0f0f0;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 footer .footer-container {
   display: flex;
@@ -363,11 +365,13 @@ footer .copyrights {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
   text-align: center;
   width: 100%;
   background-color: white;
   color: #727578;
-  padding: 15px;
+  padding-top: 15px;
+  padding-bottom: 30px;
   font-size: 0.88rem;
 }
 
