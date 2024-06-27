@@ -16,13 +16,14 @@ iframe {
   justify-content: space-around;
   align-self: center;
   background-color: white;
+  position: sticky;
+  top: 0;
 }
 
 nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  top: 0;
   position: sticky;
   background-color: white;
 }
