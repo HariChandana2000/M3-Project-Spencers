@@ -10,6 +10,14 @@ body {
   overflow-x: hidden;
 }
 
+iframe {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-self: center;
+  background-color: white;
+}
+
 nav {
   display: flex;
   justify-content: space-around;
@@ -26,16 +34,19 @@ nav .logo > img {
   width: 35%;
   height: 80px;
 }
-.search > input {
+.search > input[type="text"] {
   width: 100%;
   height: 100%;
   margin-top: -10px;
-  background-color: #f0f0f0;
+  background-color: #f7f7f7;
   border: none;
-  color: #858484;
+  color: #c1c1c1;
   cursor: pointer;
   border-radius: 5px;
+  color: #a6aaa9;
+  font-size: 1rem;
 }
+
 nav .user-icon {
   width: 15%;
   height: 60px;
@@ -69,8 +80,10 @@ nav .user-icon span:hover {
 }
 
 .list-section h3 {
-  font-size: 1.2rem;
+  font-size: 1rem;
+  font-weight: 700;
   cursor: pointer;
+  text-align: left;
 }
 .list-section ul {
   width: 22%;
@@ -83,28 +96,49 @@ nav .user-icon span:hover {
 .list-section ul li,
 .list-section ul li a {
   margin-right: 1rem;
-  font-size: 1.3rem;
-  color: #dbdbdb;
-  font-weight: lighter;
+  font-family: "Myriad Pro Light";
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #a6aaa9;
   cursor: pointer;
   text-decoration: none;
 }
 .list-section ul li a:hover {
   color: orange;
 }
+.list-section ul li a:visited {
+  text-decoration: none;
+  color: #a6aaa9;
+}
+
 .store-locator {
   display: flex;
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
+  color: #a6aaa9;
+  font-size: 0.92rem;
+  font-weight: 500;
 }
+
 .store-locator small {
   padding-right: 5px;
   color: #a09b9b;
+  padding-right: 10px;
 }
-.store-locator span {
-  color: grey;
+.store-locator .location {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-left: 1px solid #a6aaa9;
+  padding-left: 10px;
 }
+
+.store-locator small {
+  padding-right: 5px;
+  color: #a6aaa9;
+}
+
 .store-locator span:hover {
   color: orange;
 }
@@ -248,8 +282,8 @@ footer .footer-content {
   margin-top: 10px;
   font-size: small;
 }
-.footer-links ul li:hover{
-    color: orange;
+.footer-links ul li:hover {
+  color: orange;
 }
 
 /* Offer Section CSS */
