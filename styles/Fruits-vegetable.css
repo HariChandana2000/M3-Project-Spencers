@@ -99,9 +99,11 @@ main .product-total #filter{
     border: none;
     font-size: 1rem;
     background-color: #f0f0f0;
+    color: #93969a;
 }
 main .product-total p{
     font-size: 1.1rem;
+    color: #93969a;
 }
 .products {
   margin-top: 23px;
