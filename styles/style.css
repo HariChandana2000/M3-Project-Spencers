@@ -645,6 +645,10 @@ main .product-total p {
     display: none;
   }
 
+  main .hide-side-menu {
+    display: none;
+  }
+
   nav {
     display: flex;
     justify-content: space-between;
@@ -674,6 +678,26 @@ main .product-total p {
     justify-content: space-between;
     align-items: center;
     cursor: pointer;
+  }
+
+  main .main-content {
+    width: 100vw;
+    height: auto;
+  }
+
+  .main-content .offer-images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .main-content .offer-images img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    height: auto;
+    padding: 1rem;
   }
 }
 
