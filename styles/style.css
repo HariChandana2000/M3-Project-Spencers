@@ -28,7 +28,7 @@ nav {
   position: sticky;
   background-color: white;
 }
-nav .menu-icon{
+nav .menu-icon {
   display: none;
 }
 nav .logo > img {
@@ -68,6 +68,16 @@ nav .user-icon span {
 nav .user-icon span:hover {
   color: orange;
   fill: orange;
+}
+
+nav .user-icon a {
+  text-decoration: none;
+  color: rgb(194, 192, 192);
+}
+
+nav .user-icon a:visited {
+  text-decoration: none;
+  color: rgb(194, 192, 192);
 }
 
 .nav .search input::placeholder {
@@ -147,6 +157,16 @@ nav .user-icon span:hover {
   justify-content: space-between;
   border-left: 1px solid #a6aaa9;
   padding-left: 10px;
+}
+
+.store-locator .location a {
+  text-decoration: none;
+  color: #a6aaa9;
+}
+
+.store-locator .location a:visited {
+  text-decoration: none;
+  color: #a6aaa9;
 }
 
 .store-locator small {
@@ -391,36 +411,36 @@ footer .copyrights {
 /* Offer Section CSS */
 .heading {
   font-size: 1.5rem;
- text-align: center;
+  text-align: center;
 }
 .main-content {
-  width: 100%; 
+  width: 100%;
 }
-.main-content .main-content-container{
-    width: 80%;
-    height: 80vh;
-    margin-left: 10vw;
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    margin-top: 1rem;
-    background-color: #f0f0f0;
+.main-content .main-content-container {
+  width: 80%;
+  height: 80vh;
+  margin-left: 10vw;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+  background-color: #f0f0f0;
 }
-main .product-total{
-    width: 100%;
-    margin-top: 1rem;
-    display: flex;
-    justify-content: space-between;
+main .product-total {
+  width: 100%;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
 }
-main .product-total #filter{
-    border: none;
-    font-size: 1rem;
-    background-color: #f0f0f0;
-    color: #93969a;
+main .product-total #filter {
+  border: none;
+  font-size: 1rem;
+  background-color: #f0f0f0;
+  color: #93969a;
 }
-main .product-total p{
-    font-size: 1.1rem;
-    color: #93969a;
+main .product-total p {
+  font-size: 1.1rem;
+  color: #93969a;
 }
 .products {
   margin-top: 23px;
@@ -528,7 +548,7 @@ main .product-total p{
 .offer-message p {
   font-size: 2rem;
 }
-.offer-banner{
+.offer-banner {
   width: 80%;
   display: flex;
   align-items: center;
@@ -537,7 +557,7 @@ main .product-total p{
   background-color: #f0f0f0;
   box-shadow: 0 0 5px grey;
 }
-.offer-banner p{
+.offer-banner p {
   font-size: 0.6rem;
   text-align: justify;
 }
@@ -582,11 +602,10 @@ main .product-total p{
   .heading {
     font-size: 1.8rem;
   }
-  .offer-content{
+  .offer-content {
     width: 100%;
-    
   }
-  .offer-content .offer-content-container{
+  .offer-content .offer-content-container {
     width: 100%;
     height: 100%;
     justify-content: center;
@@ -618,4 +637,3 @@ main .product-total p{
     font-size: 0.9rem;
   }
 }
-
