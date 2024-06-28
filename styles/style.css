@@ -123,6 +123,16 @@ nav .user-icon span:hover {
   font-weight: 500;
 }
 
+.store-locator a {
+  text-decoration: none;
+  color: #a09b9b;
+}
+
+.store-locator a:visited {
+  text-decoration: none;
+  color: #a09b9b;
+}
+
 .store-locator small {
   padding-right: 5px;
   color: #a09b9b;
