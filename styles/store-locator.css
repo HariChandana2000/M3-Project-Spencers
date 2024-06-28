@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #53585f;
+  font-family: "Myriad Pro Regular", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.42857143;
+  font-size: 1.4rem;
+}
+
+/* Upper Heading */
+.home-section {
+  margin-left: 6rem;
+  font-size: 2vh;
+  color: #53585f;
+}
+
+.home-section .home a {
+  color: #53585f;
+  text-decoration: none;
+}
+
+.home-section .home a:hover {
+  color: #53585f;
+  text-decoration: underline;
+}
+
+.home-section .home a:visited {
+  color: #53585f;
+  text-decoration: none;
+}
+
+.heading {
+  font-family: "Myriad Pro Bold";
+  font-size: 1.4rem;
+  text-align: center;
+  color: #53585f;
+  margin: 1rem;
+}
+
+/* Store Locator */
+.locator-section {
+  display: flex;
+  gap: 1rem;
+  padding: 0.1rem;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+.locator-section .search-in {
+  background: #f7f7f7;
+  padding: 20px;
+  width: 25%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.locator-section .map {
+  width: 73%;
+  height: auto;
+}
+
+.locator-section .search-in h3 {
+  font-family: "Myriad Pro Bold";
+  color: #53585f;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.locator-section .search-in .form-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.locator-section .search-in .states-section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.locator-section .search-in .states-section select {
+  background-color: #f7f7f7;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #b3b6ba;
+  color: #53585f;
+}
+
+.locator-section .search-in .states-section select:focus {
+  background-color: #f7f7f7;
+  border: none;
+  border-bottom: 1px solid #b3b6ba;
+  outline: none;
+  color: #53585f;
+}
+
+.locator-section .search-in .form-labels {
+  font-size: 1rem;
+  color: #f28a41;
+}
+
+.locator-section .search-in .pincode-section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.locator-section .search-in .pincode-section input[type="text"] {
+  outline: none;
+  border: none;
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #b3b6ba;
+  color: #53585f;
+}
+
+.locator-section .search-in .form-section .locate-button {
+  width: 80%;
+  background: #f28a3f;
+  border: 0;
+  border-radius: 30px;
+  color: #000;
+  cursor: pointer;
+  padding: 10px 21px;
+  vertical-align: middle;
+  margin: 0 auto;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+  transition: all 0.6s ease;
+}
+
+.locator-section .search-in .form-section .locate-button:hover {
+  transform: translate(0px, -2px);
+}
+
+.checkbox-input {
+  display: none;
+}
+
+.form-section span {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.checkbox {
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 50%;
+  display: inline-block;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  color: #f28a3f;
+  content: "";
+  cursor: pointer;
+}
+
+.checkbox-input:checked + .checkbox {
+  background-image: url("https://media.istockphoto.com/id/538098895/vector/orange-check-mark.jpg?s=612x612&w=0&k=20&c=382AWz8MhxSog6dorH7uKQm_Je0cB8YAc4RhFzwGrqA=");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.locator-section .search-in .form-section span label {
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 818px) {
+  .locator-section {
+    display: flex;
+    padding: 0.1rem;
+    flex-wrap: wrap;
+    height: 100%;
+    justify-content: center;
+  }
+
+  .locator-section .search-in {
+    background: #f7f7f7;
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .locator-section .map {
+    width: 100%;
+    height: 100vh;
+  }
+}
