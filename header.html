@@ -1,61 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Headers</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
-    />
-    <link rel="stylesheet" href="./styles/style.css" />
-  </head>
-  <body>
-    <nav>
-      <div class="logo">
-        <a href="index.html"
-          ><img
-            src="https://www.spencers.in/media/logo/stores/1/logo.png"
-            alt="logo"
-        /></a>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Headers</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <link rel="stylesheet" href="./styles/style.css" />
+</head>
+
+<body>
+  <nav>
+    <div class="logo">
+      <a href="index.html"><img src="https://www.spencers.in/media/logo/stores/1/logo.png" alt="logo" /></a>
+    </div>
+    <div class="search">
+      <input type="text" name="search" id="search" placeholder="I'm looking for" />
+    </div>
+    <div class="user-icon">
+      <span class="material-symbols-outlined"> person </span>
+      <span class="material-symbols-outlined"> person_pin_circle </span>
+      <span class="material-symbols-outlined"> more_horiz </span>
+      <span class="material-symbols-outlined"> shopping_cart </span>
+    </div>
+  </nav>
+  <section class="list-section">
+    <h3>Categories</h3>
+    <ul>
+      <li><a href="./spencer_offer.html" target="_parent">Offers</a></li>
+      <li><a href="./shopping-list.html" target="_parent">Shopping List</a></li>
+    </ul>
+    <div class="store-locator">
+      <a href="./serving-store.html" target="_parent">
+        <small>Serving Store:
+          <span style="color: #53585f">Quest Mall Hyper</span></small></a>
+      <div class="location">
+        <small>Store Locator</small>
+        <span class="material-symbols-outlined"> store </span>
       </div>
-      <div class="search">
-        <input
-          type="text"
-          name="search"
-          id="search"
-          placeholder="I'm looking for"
-        />
-      </div>
-      <div class="user-icon">
-        <span class="material-symbols-outlined"> person </span>
-        <span class="material-symbols-outlined"> person_pin_circle </span>
-        <span class="material-symbols-outlined"> more_horiz </span>
-        <span class="material-symbols-outlined"> shopping_cart </span>
-      </div>
-    </nav>
-    <section class="list-section">
-      <h3>Categories</h3>
-      <ul>
-        <li><a href="./spencer_offer.html" target="_parent">Offers</a></li>
-        <li><a href="./shopping-list.html" target="_parent">Shopping List</a></li>
-      </ul>
-      <div class="store-locator">
-        <small
-          >Serving Store:
-          <span style="color: #53585f">Quest Mall Hyper</span></small
-        >
-        <div class="location">
-          <small>Store Locator</small>
-          <span class="material-symbols-outlined"> store </span>
-        </div>
-      </div>
-    </section>
-  </body>
+    </div>
+  </section>
+</body>
+
 </html>
