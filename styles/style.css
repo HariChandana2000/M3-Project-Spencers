@@ -28,6 +28,9 @@ nav {
   position: sticky;
   background-color: white;
 }
+nav .menu-icon{
+  display: none;
+}
 nav .logo > img {
   width: 120px;
   height: 45px;
@@ -456,11 +459,11 @@ main .product-total p{
 .products h3 {
   color: gray;
   font-weight: lighter;
-  font-size: 1.91vh;
+  font-size: 0.9rem;
 }
 
 .product-name {
-  font-size: 2.1vh;
+  font-size: 1rem;
   word-break: keep-all;
   font-weight: 550;
   font-family: "Rubik", sans-serif;
@@ -539,19 +542,9 @@ main .product-total p{
   text-align: justify;
 }
 
-/* Responsive */
+/* Responsive for offer section */
 @media (max-width: 1024px) {
-  .home-gs {
-    margin-left: 3rem;
-    font-size: 1.8vh;
-  }
-
-  .sidebar {
-    width: 200px;
-    height: auto;
-  }
-
-  .main-content {
+  .offer-content {
     width: calc(100% - 200px);
   }
 
@@ -562,7 +555,7 @@ main .product-total p{
 }
 
 @media (max-width: 768px) {
-  main {
+  .offer-content {
     flex-direction: column;
     align-items: center;
   }
@@ -575,7 +568,7 @@ main .product-total p{
     border: none;
   }
 
-  .main-content {
+  .offer-content-container {
     width: 100%;
   }
 
@@ -586,19 +579,14 @@ main .product-total p{
 }
 
 @media (max-width: 480px) {
-  .home-gs {
-    margin-left: 1rem;
-    font-size: 1.5vh;
-  }
-
   .heading {
     font-size: 1.8rem;
   }
-  .main-content{
+  .offer-content{
     width: 100%;
     
   }
-  .main-content .main-content-container{
+  .offer-content .offer-content-container{
     width: 100%;
     height: 100%;
     justify-content: center;
