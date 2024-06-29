@@ -207,14 +207,25 @@ main .product-total p{
     width: 200px;
     height: auto;
   }
-
+  .text-product {
+    width: 14vw;
+    margin: auto;
+    /* background-color: brown; */
+  }
   .main-content {
     width: calc(100% - 200px);
   }
 
   .products {
-    width: 14rem;
+    width: 14vh;
     height: auto;
+  }
+  .product-name {
+    font-size: 2.1vh;
+    word-break: keep-all;
+    font-weight: 550;
+    font-family: "Rubik", sans-serif;
+    text-align: center;
   }
 }
 
@@ -239,6 +250,18 @@ main .product-total p{
   .products {
     width: 90%;
     height: auto;
+  }
+  .text-product {
+    width: 60%;
+    margin: auto;
+    /* background-color: brown; */
+  }
+  .product-name {
+    font-size: 1.5vh;
+    word-break: keep-all;
+    font-weight: 550;
+    font-family: "Rubik", sans-serif;
+    text-align: center;
   }
 }
 
@@ -276,5 +299,17 @@ main .product-total p{
   .add-button button {
     padding: 0.2rem 0.8rem;
     font-size: 0.9rem;
+  }
+  .text-product {
+    width: 60%;
+    margin: auto;
+    /* background-color: brown; */
+  }
+  .product-name {
+    font-size: 1.2vh;
+    word-break: keep-all;
+    font-weight: 550;
+    font-family: "Rubik", sans-serif;
+    text-align: center;
   }
 }
