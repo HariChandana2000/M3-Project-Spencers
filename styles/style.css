@@ -425,6 +425,24 @@ footer .copyrights {
   font-size: 0.88rem;
 }
 
+.download-app-img {
+  display: none;
+}
+
+@media screen and (max-width: 650px) {
+  .download-app-img {
+    display: block;
+  }
+  .download-app-img img {
+    position: absolute;
+    top: 9%;
+    left: 0;
+    width: 100%;
+    overflow: auto;
+    z-index: 1000;
+  }
+}
+
 /* Offer Section CSS */
 .heading {
   font-size: 1.5rem;
