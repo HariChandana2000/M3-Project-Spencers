@@ -5,16 +5,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Groceries & Staples</title>
     <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link
       rel="shortcut icon"
       href="https://www.spencers.in/media/favicon/stores/1/favicon.png"
       type="image/x-icon"
     />
-    <link rel="stylesheet" href="../styles/Fruits-vegetable.css" />
     <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="stylesheet" href="../styles/Fruits-vegetable.css" />
   </head>
 
   <body>
-    <iframe src="../header.html" scrolling="no" frameborder="0"></iframe>
+    <!--Header Section-->
+    <nav>
+      <div class="logo">
+        <div class="menu-icon">
+          <span class="material-symbols-outlined"> menu </span>
+        </div>
+        <a href="../index.html" target="_parent"
+          ><img
+            src="https://www.spencers.in/media/logo/stores/1/logo.png"
+            alt="logo"
+        /></a>
+      </div>
+      <div class="search hide-search-bar">
+        <input
+          type="text"
+          name="search"
+          id="search"
+          placeholder="I'm looking for"
+        />
+      </div>
+      <div class="user-icon hide-user-icons">
+        <a href="../account/myaccount.html">
+          <span class="material-symbols-outlined"> person </span></a
+        >
+        <a href="../tracking-order.html" target="_parent">
+          <span class="material-symbols-outlined">person_pin_circle </span></a
+        >
+        <span class="material-symbols-outlined"> more_horiz </span>
+        <span class="material-symbols-outlined"> shopping_cart </span>
+      </div>
+
+      <div class="user-icon hide-user-icons-default">
+        <span class="material-symbols-outlined"> search </span>
+        <a href="../tracking-order.html" target="_parent">
+          <span class="material-symbols-outlined">person_pin_circle </span>
+        </a>
+        <span class="material-symbols-outlined"> shopping_cart </span>
+      </div>
+    </nav>
+    <section class="list-section hide-list-section">
+      <h3>Categories</h3>
+      <ul>
+        <li><a href="../spencer_offer.html" target="_parent">Offers</a></li>
+        <li>
+          <a href="../shopping-list.html" target="_parent">Shopping List</a>
+        </li>
+      </ul>
+      <div class="store-locator">
+        <a href="../serving-store.html" target="_parent">
+          <small
+            >Serving Store:
+            <span style="color: #53585f">Quest Mall Hyper</span></small
+          ></a
+        >
+        <div class="location">
+          <small>
+            <a href="../store-locator.html" target="_parent"
+              >Store Locator</a
+            ></small
+          >
+          <a href="../store-locator.html" target="_parent"
+            ><span class="material-symbols-outlined"> store </span></a
+          >
+        </div>
+      </div>
+    </section>
     <!-- Home / Groceries & staples -->
     <div class="home-gs">
       <span class="h1"><a href="../index.html">Home</a> </span> /
@@ -970,14 +1039,251 @@
        </div>
     </main>
 
-    <!--Footer Section-->
-    <iframe
-      src="../footer.html"
-      scrolling="no"
-      frameborder="0"
-      id="footer-iframe"
-      style="z-index: 1"
-    ></iframe>
-    <script src="../footer-loading.js"></script>
+   <!--Footer Section-->
+   <footer>
+    <div class="footer-container">
+      <div class="footer-content hide-block">
+        <div class="header">
+          <h2>Category</h2>
+        </div>
+        <div class="footer-links">
+          <ul>
+            <li>Fruits & Vegetables</li>
+            <li>Groceries & Staples</li>
+            <li>Organic</li>
+            <li>Bakery & Eggs & Dairy</li>
+            <li>Coffer-Tea & Beverages</li>
+            <li>Packaged Food</li>
+            <li>Imported & Gourmet</li>
+            <li>Fish & Meat</li>
+            <li>Baby Care</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-content hide-block">
+        <div class="footer-links">
+          <div class="header">
+            <h2>&nbsp;</h2>
+          </div>
+          <ul>
+            <li>Personal Care</li>
+            <li>Home & Kitchen</li>
+            <li>Bathroom & Cleaning</li>
+            <li>Electricals and Electronics</li>
+            <li>Pet Care</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-content hide-block">
+        <div class="header">
+          <h2>Gift Cards</h2>
+        </div>
+        <div class="footer-links">
+          <ul>
+            <li>About Gift Card</li>
+            <li>Gift Card Benefits</li>
+            <li>Terms & Conditions</li>
+            <li>Buy Spencer’s Gift Card</li>
+            <li>My Gift Card Balance</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-content hide-block">
+        <div class="header">
+          <h2>Information</h2>
+        </div>
+        <div class="footer-links">
+          <ul>
+            <li>About Us</li>
+            <li>Locate Us</li>
+            <li>Heritage</li>
+            <li>Differentiators</li>
+            <li>Innovations</li>
+            <li>Awards</li>
+            <li>Milestones</li>
+            <li>Corporate Login</li>
+            <li>FAQs</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-content hide-block">
+        <div class="footer-links">
+          <div class="header">
+            <h2>&nbsp;</h2>
+          </div>
+          <ul>
+            <li>What we sell?</li>
+            <li>Spencer's Smart Rewards</li>
+            <li>Partner with Us</li>
+            <li>Privacy Policy</li>
+            <li>Terms & Conditions</li>
+            <li>Join Us</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-content show-content">
+        <div class="header">
+          <h2>Contact Us</h2>
+        </div>
+        <div class="footer-links">
+          <ul>
+            <li>
+              <i class="fa-regular fa-envelope fa-lg"></i> E-mail:
+              <a href="mailto:customercare.spencers@rp-sg.in"
+                >customercare@spencers.in</a
+              >
+            </li>
+            <li>
+              <i class="fa-solid fa-phone-volume fa-lg"></i> Telephone:
+              18001030134
+            </li>
+            <p style="font-weight: lighter">9am to 9pm everyday</p>
+            <p>IVR: 02192-686868</p>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <section class="icons-section">
+      <div class="payment">
+        <div class="header">
+          <h2>Payment</h2>
+        </div>
+        <div class="cards-icons">
+          <img
+            src="../images/cards-icons/visa_curved_icon.png"
+            alt="visa_curved_icon"
+          />
+          <img
+            src="../images/cards-icons/mastercard_curved_icon.png"
+            alt="mastercard_curved_icon"
+          />
+          <img
+            src="../images/cards-icons/maestro_curved_icon.png"
+            alt="maestro_curved_icon"
+          />
+          <img
+            src="../images/cards-icons/express_curved_american_icon.png"
+            alt="express_curved_american_icon"
+          />
+          <img
+            src="../images/cards-icons/discover_curved_icon.png"
+            alt="discover_curved_icon"
+          />
+          <img
+            src="../images/cards-icons/payment_paypal_curved_donate_icon.png"
+            alt="payment_paypal_curved_donate_icon"
+          />
+          <img
+            src="../images/cards-icons/delta_curved_icon.png"
+            alt="delta_curved_icon"
+          />
+          <img
+            style="width: 51px; height: 34px; vertical-align: middle"
+            src="../images/cards-icons/rupay.png"
+            alt="rupay"
+          />
+          <img
+            style="
+              width: 51px;
+              height: 34px;
+              vertical-align: middle;
+              border: 1px solid rgb(217, 213, 213);
+              border-radius: 2px;
+            "
+            src="../images/cards-icons/netbank.png"
+            alt="netbank"
+          />
+          <img
+            style="
+              width: 51px;
+              height: 34px;
+              vertical-align: middle;
+              border: 1px solid rgb(217, 213, 213);
+              border-radius: 2px;
+            "
+            src="../images/cards-icons/paytm.png"
+            alt="paytm"
+          />
+          <img
+            style="
+              width: 51px;
+              height: 34px;
+              vertical-align: middle;
+              vertical-align: middle;
+              border: 1px solid rgb(217, 213, 213);
+              background-color: white;
+              border-radius: 2px;
+            "
+            src="../images/cards-icons/cash.svg"
+            alt="cash"
+          />
+        </div>
+      </div>
+      <div class="connect">
+        <div class="header">
+          <h2>Connect</h2>
+        </div>
+        <div class="social">
+          <span
+            ><i
+              class="fa-brands fa-facebook-f fa-xl"
+              style="color: #4646ce"
+            ></i
+          ></span>
+          <span
+            ><i class="fa-brands fa-twitter fa-xl" style="color: #1da1f2"></i
+          ></span>
+          <span
+            ><i
+              class="fa-brands fa-instagram fa-xl"
+              style="color: #b43c82"
+            ></i
+          ></span>
+        </div>
+      </div>
+    </section>
+    <section class="description">
+      <div class="details">
+        <p>
+          <strong>Convenience at its best:</strong> With 57,000+ products in
+          store, Spencer’s offers you the convenience of ordering online and
+          getting all your products delivered right at your doorstep in a
+          maximum of 3 hours. Get all your online grocery shopping done in a
+          matter of minutes.
+        </p>
+      </div>
+      <div class="details">
+        <p>
+          <strong>You Name It, We Have It:</strong> Spencer’s meets all your
+          grocery and home-based needs across categories like Fruits &
+          Vegetables, Groceries & Staples, Organic, Bakery & Eggs & Dairy,
+          Coffee &Tea & Beverages, Packaged Food, Imported & Gourmet, Fish &
+          Meat, Baby Care, Personal Care, Bathroom & Cleaning, Home &
+          Dining,Apparel.
+        </p>
+      </div>
+      <div class="details">
+        <p>
+          <strong>Our Service Locations:</strong> With a constantly growing
+          network, Spencer’s is currently providing its service to the cities
+          of Kolkata, Noida, Gurgaon, Delhi, Ghaziabad,Varanasi, Dehradun,
+          Allahabad, Chennai, Hyderabad, Lucknow, Vizag.
+        </p>
+      </div>
+      <div class="details">
+        <p>
+          <strong>Payment Options:</strong> There are a number of cashless
+          payment options that are available to customers like Net Banking,
+          PayTM, Card on Delivery that make it convenient for everyone to pay.
+          Avail of great online grocery offers and discounts by ordering
+          online and making your life easy and simple.
+        </p>
+      </div>
+    </section>
+    <section class="copyrights">
+      <p>Copyright © Spencer's Retail 2023</p>
+    </section>
+  </footer>
   </body>
 </html>
