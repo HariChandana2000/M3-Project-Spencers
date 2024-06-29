@@ -36,9 +36,10 @@
 
 #thumbnail>img{
   padding: 0.781rem;
-  width: 28vw;
+  max-width: 80%;
   height: 34vh;
   overflow: hidden;
+  object-fit: contain;
 }
 
 /* Main Content */
