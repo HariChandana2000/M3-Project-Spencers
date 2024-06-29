@@ -15,8 +15,8 @@ body {
 
 /* Main Page */
 #Account-page {
-  width: 24%;
-  height: 82vh;
+  width: 24vw;
+  height: 87vh;
   margin: auto;
   align-content: center;
   background-color: white;
@@ -29,8 +29,8 @@ body {
 
 /* Up */
 #up {
-  height: 73vh;
-  word-wrap: break-word;
+  height: 78vh;
+  /* word-wrap: break-word; */
 }
 
 h2 {
@@ -108,70 +108,67 @@ a {
   text-decoration: none;
 }
 
-/* Responsive Design */
+
+/* Responsive */
 @media (max-width: 768px) {
-  nav {
-    flex-direction: column;
-  }
-
-  .search {
-    width: fit-content;
-    margin: auto;
-  }
-
-  nav .user-icon {
-    width: 100%;
-    justify-content: center;
-    margin-top: 1rem;
-  }
-
   #Account-page {
-    width: 49%;
-    margin: 1rem auto;
-    padding: 1rem;
+    width: 71vw;
   }
 
-  #para-block .info {
-    flex-direction: column;
-    align-items: center;
-  }
-}
 
-@media (max-width: 480px) {
-  nav .logo > img {
-    width: 5rem;
-  }
-
-  nav .user-icon span {
-    font-size: 1.5rem;
-  }
-
-  #Account-page h2 {
-    font-size: 1.5rem;
-  }
 
   #para {
-    font-size: 0.875rem;
+    font-size: 1rem;
   }
 
   #para-block > h1 {
-    font-size: 1.25rem;
-  }
-
-  #para-block img {
-    height: 3.4375rem;
-    width: fit-content;
-    margin-left: 2.875rem;
-    padding-top: 0.75em;
-    background-color: firebrick;
+    font-size: 1.2rem;
   }
 
   #para-block h3 {
-    font-size: 0.75rem;
+    font-size: 0.8rem;
   }
 
   h6,
   a {
-    font-size: 0.875rem;
+    font-size: 1rem;
+  }
+
+  #down > h3,
+  a {
+    font-size: 1.2rem;
+  }
+
+  .info-head{
+      align-content: center;
+      margin: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  #img > img {
+    width: 80px;
+  }
+
+  #para-block > h1 {
+    font-size: 1rem;
+  }
+
+  #para-block h3 {
+    font-size: 0.7rem;
+  }
+
+  h6,
+  a {
+    font-size: 0.9rem;
+  }
+
+  #down > h3,
+  a {
+    font-size: 1rem;
   }
 }
