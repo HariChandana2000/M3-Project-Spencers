@@ -297,6 +297,7 @@ footer {
   width: 100vw;
   height: auto;
   background-color: #f0f0f0;
+  margin-top: 20px;
 }
 footer .footer-container {
   display: flex;
