@@ -312,8 +312,8 @@ main .side-menu ul li a:visited {
 footer {
   width: 100vw;
   height: auto;
-  background-color: #f0f0f0;
-  margin-top: 20px;
+  background-color: #d0cece;
+  padding-top: 20px;
 }
 footer .footer-container {
   display: flex;
