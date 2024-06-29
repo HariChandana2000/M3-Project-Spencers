@@ -10,6 +10,10 @@ body {
   overflow-x: hidden;
 }
 
+.content-in-body {
+  overflow-x: hidden;
+}
+
 nav {
   display: flex;
   justify-content: space-around;
@@ -22,9 +26,13 @@ nav {
 nav .menu-icon {
   display: none;
 }
+
+nav .logo {
+  width: 25%;
+}
+
 nav .logo > img {
-  width: 120px;
-  height: 45px;
+  object-fit: cover;
 }
 .search {
   width: 35%;
@@ -688,7 +696,7 @@ main .product-total p {
 
   nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
   }
 
@@ -697,6 +705,7 @@ main .product-total p {
     align-items: center;
     gap: 1rem;
   }
+
   nav .menu-icon {
     display: flex;
   }
