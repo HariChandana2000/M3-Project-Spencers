@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    position: relative;
+    place-items:center;
+}
+.delivery-icon {
+    font-size: 55px;
+    color:darkgray;
+}
+.fa-location-crosshairs {
+    font-size: 25px;
+}
+footer {
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 50px;
+}
+.Locate{
+    font-size: 20px;
+    border: none;
+    background-color: white;
+}
+.but{
+    align-content: center;
+    position: relative;
+    text-align: center;
+    background: #f48338;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 20px;
+    font-size: large;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+input{
+    font: inherit;
+    color: inherit;
+    line-height: 120%;
+    padding-right: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid gray;
+    outline: none;
+}
+.container{
+    text-align: center;
+}
+.box{
+    margin: 50px;
+}

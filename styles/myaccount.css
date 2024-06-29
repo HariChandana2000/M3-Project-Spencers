@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(165, 161, 161);
+  width: 100vw;
+  height: 100vh;
+}
+
+/* Main Page */
+#Account-page {
+  width: 24vw;
+  height: 87vh;
+  margin: auto;
+  align-content: center;
+  background-color: white;
+  position: relative;
+  overflow: hidden;
+  word-wrap: break-word;
+  text-align: center;
+  box-shadow: 0px 0px 0.4375rem rgb(169, 167, 167);
+}
+
+/* Up */
+#up {
+  height: 78vh;
+  /* word-wrap: break-word; */
+}
+
+h2 {
+  padding-top: 0.26em;
+  color: #f28a3f;
+  font-family: serif;
+  font-weight: lighter;
+}
+
+#img > img {
+  width: 11.3125;
+  height: 11.125rem;
+  padding-top: 0.875rem;
+  margin-left: 0.8rem;
+}
+
+#para {
+  padding: 1.4375rem;
+  font-size: 1.2rem;
+  border-bottom: 0.014rem solid rgb(208, 207, 207);
+}
+
+#para span {
+  color: #f28a3f;
+}
+
+#para-block > h1 {
+  color: rgb(93, 89, 89);
+  padding-top: 1.3125rem;
+  font-size: 1.48rem;
+}
+
+#para-block .info {
+  display: flex;
+  margin-top: 0.6rem;
+}
+
+#para-block img {
+  height: 7.4375rem;
+  width: fit-content;
+  margin-left: 2.875rem;
+  padding-top: 0.75em;
+}
+
+#para-block h3 {
+  margin-top: 2rem;
+  margin-left: 0.1875rem;
+  text-align: left;
+  font-size: 0.878rem;
+  color: rgb(85, 83, 83);
+  font-weight: lighter;
+}
+
+h6,
+a {
+  margin-top: 1.2rem;
+  font-size: 1.2rem;
+  color: rgb(99, 98, 98);
+  font-weight: lighter;
+}
+
+/* Down */
+#down {
+  height: 9vh;
+  background: #f28a3f;
+  align-content: center;
+  position: relative;
+}
+
+#down > h3,
+a {
+  color: black;
+  font-weight: 400;
+  font-size: 1.32rem;
+  text-decoration: none;
+}
+
+
+/* Responsive */
+@media (max-width: 768px) {
+  #Account-page {
+    width: 71vw;
+  }
+
+
+
+  #para {
+    font-size: 1rem;
+  }
+
+  #para-block > h1 {
+    font-size: 1.2rem;
+  }
+
+  #para-block h3 {
+    font-size: 0.8rem;
+  }
+
+  h6,
+  a {
+    font-size: 1rem;
+  }
+
+  #down > h3,
+  a {
+    font-size: 1.2rem;
+  }
+
+  .info-head{
+      align-content: center;
+      margin: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  #img > img {
+    width: 80px;
+  }
+
+  #para-block > h1 {
+    font-size: 1rem;
+  }
+
+  #para-block h3 {
+    font-size: 0.7rem;
+  }
+
+  h6,
+  a {
+    font-size: 0.9rem;
+  }
+
+  #down > h3,
+  a {
+    font-size: 1rem;
+  }
+}
