@@ -323,6 +323,7 @@ footer {
   height: auto;
   background-color: #d0cece;
   padding-top: 20px;
+  margin-top: 20px;
 }
 footer .footer-container {
   display: flex;
