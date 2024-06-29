@@ -25,6 +25,16 @@
     font-size: 1.5rem;
    text-align: center;
 }
+.heading .banner-fruits{
+    align-items: center;
+   width: 100%;
+   height: 100%;
+}
+.heading .banner-fruits > img{
+    align-items: center;
+    width: 40vw;
+    height: 40vh;
+}
 
 /* Main Content */
 main {
@@ -227,6 +237,11 @@ main .product-total p{
     font-family: "Rubik", sans-serif;
     text-align: center;
   }
+  .heading .banner-fruits > img{
+    align-items: center;
+    width: 100%;
+    height: 40vh;
+}
 }
 
 @media (max-width: 768px) {
@@ -263,6 +278,11 @@ main .product-total p{
     font-family: "Rubik", sans-serif;
     text-align: center;
   }
+  .heading .banner-fruits > img{
+    align-items: center;
+    width: 100%;
+    height: 30vh;
+}
 }
 
 @media (max-width: 480px) {
