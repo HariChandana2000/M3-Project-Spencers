@@ -39,6 +39,7 @@ main {
   display: flex;
   justify-content: center;
   background-color: rgb(247, 245, 245);
+  margin-bottom: 20px;
 }
 
 /* Sidebar */
