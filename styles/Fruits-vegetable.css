@@ -111,6 +111,7 @@ main .product-total{
 main .product-total #filter{
     border: none;
     font-size: 1rem;
+    margin-right: 2vw;
     background-color: #f0f0f0;
     color: #93969a;
 }
