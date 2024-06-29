@@ -1,0 +1,158 @@
+.container {
+  width: 60%;
+  height: 70vh;
+  border: 0.5px solid #ccc;
+  padding: 10px;
+  margin: 180px;
+  background-color: #f0f0f0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-part {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 200px;
+  height: 350px;
+  text-align: center;
+  padding: 10px;
+  margin: 0 -2.5rem;
+}
+
+.login-part a {
+  text-decoration: none;
+  color: rgb(83, 88, 95);
+}
+
+.login-part a:visited {
+  text-decoration: none;
+  color: rgb(83, 88, 95);
+}
+
+.image {
+  margin-top: -3rem;
+  width: 250px;
+  height: 80vh;
+  box-shadow: 0 0 10px -2px rgba(0, 0, 0, 0.4);
+}
+.image img {
+  width: 100%;
+  height: 100%;
+}
+
+.forms {
+  padding: 10px;
+  width: 55%;
+  height: 50px;
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.forms .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 450px;
+  text-align: center;
+  padding: 5px;
+  margin: 0 1rem;
+  align-items: center;
+}
+.inp1 {
+  border: none;
+  font: inherit;
+  color: inherit;
+  width: 100%;
+  height: 1.5rem;
+  outline: none;
+  background-color: #f0f0f0;
+  border-bottom: 1px solid gray;
+}
+.inp2 {
+  border: none;
+  font: inherit;
+  color: inherit;
+  width: 100%;
+  height: 1.5rem;
+  outline: none;
+  background-color: #f0f0f0;
+  border-bottom: 1px solid gray;
+}
+.inp3 {
+  border: none;
+  font: inherit;
+  color: inherit;
+  width: 100%;
+  height: 1.5rem;
+  outline: none;
+  background-color: #f0f0f0;
+  border-bottom: 1px solid gray;
+}
+.inp4 {
+  border: none;
+  font: inherit;
+  color: inherit;
+  width: 20em;
+  height: 1.5rem;
+  outline: none;
+  background-color: #f0f0f0;
+  border-bottom: 1px solid gray;
+}
+
+.OTP {
+  width: 130px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: orange;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  padding: auto;
+}
+.fa-facebook {
+  color: #1877f2;
+}
+
+.fa-google {
+  /* color: gray; */
+  background: conic-gradient(
+      from -45deg,
+      #ea4335 110deg,
+      #4285f4 90deg 180deg,
+      #34a853 180deg 270deg,
+      #fbbc05 270deg
+    )
+    73% 55%/150% 150% no-repeat;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+.verify {
+  background-color: lightgray;
+  height: 40px;
+  border: none;
+  font-size: 22px;
+  padding: 10px;
+  color: white;
+  border-radius: 20px;
+}
+
+.logo {
+  border: 1px solid gray;
+  height: 40px;
+  border-radius: 20px;
+  width: 130px;
+  font-size: 16px;
+  font-weight: bold;
+  color: grey;
+}
