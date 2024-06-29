@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body class="login-page">
-    <div class="container">
+    <div class="container hide-login-container">
       <div class="login-part">
         <div>
           <i
@@ -54,6 +54,37 @@
           <button>Login</button>
           <p>Forgot Password ?</p>
         </div>
+      </div>
+    </div>
+
+    <!--show on small screens-->
+    <div class="small-container">
+      <div class="header-icons">
+        <div>
+          <a href="./index.html" target="_parent"
+            ><i
+              class="fas fa-angle-left"
+              style="color: #c06230; font-size: 1.5rem"
+            ></i
+          ></a>
+        </div>
+        <div>
+          <i class="fas fa-user" style="color: #c06230; font-size: 1.5rem"></i>
+          <h2 style="font-size: 1rem">Login</h2>
+        </div>
+        <div>
+          <i class="far fa-user" style="color: #c06230; font-size: 1.5rem"></i>
+          <h2 style="font-size: 1rem">
+            <a href="./signup.html" target="_parent">Sign up</a>
+          </h2>
+        </div>
+      </div>
+      <div class="forms">
+        <h1>Login</h1>
+        <input class="inp1" type="text" placeholder="Phone or Email" />
+        <input class="inp2" type="password" placeholder="Password" />
+        <button>Login</button>
+        <p>Forgot Password ?</p>
       </div>
     </div>
   </body>

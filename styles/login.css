@@ -105,3 +105,62 @@
   margin-left: 2rem;
   padding: auto;
 }
+
+/* Small screen styles */
+.small-container {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .login-page .hide-login-container {
+    display: none;
+  }
+  .login-page .small-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 5px 35px rgba(0, 0, 0, 0.2);
+    border: 0;
+    background-color: #f6f6f6;
+    width: 70%;
+    height: auto;
+    margin-top: 20px;
+    padding: 10px;
+  }
+
+  .login-page .small-container .header-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+  }
+
+  .login-page .small-container .header-icons a {
+    text-decoration: none;
+    color: rgb(83, 88, 95);
+  }
+
+  .login-page .small-container .header-icons a:visited {
+    text-decoration: none;
+    color: rgb(83, 88, 95);
+  }
+
+  .login-page .small-container .forms {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+  }
+  .login-page .small-container .forms button {
+    width: 130px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: orange;
+    border: none;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: auto;
+  }
+}
